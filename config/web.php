@@ -50,8 +50,11 @@ $config = [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
-                'category' => 'category/view',
-                'category/<id>' => 'category/search',
+//                'category' => 'category/view',
+//                'category/<id>' => 'category/search',
+                'category/<id>' => 'category/view',
+                'good/<name>' => 'good/index',
+                'search' => 'category/search',
             ],
         ],
 
