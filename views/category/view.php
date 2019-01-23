@@ -5,6 +5,13 @@ use yii\helpers\Url;
 
 ?>
 
+<?php
+    $this->title = 'Ресторан Суши | '.$title['browser_name'];
+?>
+
+
+
+
 <div class="container">
     <div class="row justify-content-center">
 

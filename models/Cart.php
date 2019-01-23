@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: OTZ_VAV
- * Date: 16.01.2019
- * Time: 12:53
- */
 
 namespace app\models;
 use yii\db\ActiveRecord;

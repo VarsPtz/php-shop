@@ -1,18 +1,16 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: OTZ_VAV
- * Date: 16.01.2019
- * Time: 11:31
- */
 
 namespace app\controllers;
+
 use app\models\Good;
 use app\models\Cart;
 use app\models\Order;
 use app\models\OrderGood;
+use app\models\Translate;
 use Yii;
 use yii\web\Controller;
+use yii\helpers\Url;
+use yii\swiftmailer\Mailer;
 
 class CartController extends Controller
 {

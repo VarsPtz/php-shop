@@ -51,4 +51,14 @@ class Good extends ActiveRecord
         return $searchResults;
     }
 
+    private $category = [
+        'sets' => 'Сет',
+        'sushi' => 'Суши',
+        'rolls' => 'Ролл',
+    ];
+
+    public function getCategoryNameByCode(string $code){
+        return $this->category[$code];
+    }
+
 }
